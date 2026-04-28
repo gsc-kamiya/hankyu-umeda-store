@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="SHOPS">
+	<style>
+		.shop-item {
+			border: 1px solid #333;
+			padding: 2rem;
+			background: #222;
+		}
+		.floor-tag {
+			font-weight: 900;
+			color: var(--primary);
+			font-size: 0.8rem;
+			margin-bottom: 0.5rem;
+		}
+		.shop-name {
+			font-size: 1.5rem;
+			font-weight: 900;
+			margin-bottom: 1rem;
+		}
+	</style>
+	<main>
+		<h2 class="section-title">Shops & Brands</h2>
+		<div class="grid">
+			<div class="shop-item">
+				<div class="floor-tag">1F COSMETICS</div>
+				<div class="shop-name">INTERNATIONAL COSMETICS</div>
+				<p style="color:#aaa;">国内外のラグジュアリーコスメが結集。</p>
+			</div>
+			<div class="shop-item">
+				<div class="floor-tag">2F LUXURY</div>
+				<div class="shop-name">HANDBAGS & ACCESSORIES</div>
+				<p style="color:#aaa;">世界をリードするハイエンドブランド。</p>
+			</div>
+			<div class="shop-item">
+				<div class="floor-tag">B1F FOOD</div>
+				<div class="shop-name">UMEDA FOOD HALL</div>
+				<p style="color:#aaa;">至極のスイーツと旬の食材が並ぶ食の殿堂。</p>
+			</div>
+		</div>
+	</main>
+</Layout>

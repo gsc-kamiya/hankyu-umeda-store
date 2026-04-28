@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="FLOORS">
+	<style>
+		.floor-list {
+			padding: 0 10% 4rem;
+		}
+		.floor-row {
+			display: flex;
+			border-bottom: 1px solid #333;
+			padding: 1.5rem 0;
+			align-items: baseline;
+		}
+		.floor-num {
+			font-size: 2rem;
+			font-weight: 900;
+			width: 100px;
+			color: var(--primary);
+		}
+		.floor-desc {
+			font-weight: 700;
+		}
+	</style>
+	<main>
+		<h2 class="section-title">Floor Guide</h2>
+		<div class="floor-list">
+			<div class="floor-row">
+				<div class="floor-num">13F</div>
+				<div class="floor-desc">レストラン</div>
+			</div>
+			<div class="floor-row">
+				<div class="floor-num">9F</div>
+				<div class="floor-desc">祝祭広場・催場・阪急うめだギャラリー</div>
+			</div>
+			<div class="floor-row">
+				<div class="floor-num">1F</div>
+				<div class="floor-desc">化粧品・婦人雑貨</div>
+			</div>
+			<div class="floor-row">
+				<div class="floor-num">B1F</div>
+				<div class="floor-desc">和洋菓子・惣菜・弁当</div>
+			</div>
+		</div>
+	</main>
+</Layout>
